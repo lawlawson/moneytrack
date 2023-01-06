@@ -1,9 +1,10 @@
 import styles from './Login.module.css';
 
-import React from 'react';
-
-const Login = () => {
-  return <div>Login</div>;
-};
-
-export default Login;
+export default function Login() {
+  return (
+    <form>
+      <h2>Login</h2>
+      <label></label>
+    </form>
+  );
+}
